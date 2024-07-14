@@ -4,3 +4,11 @@ git --version
 
 comandos git
 https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
+
+git config --global user.email "lrodriguezn.ctg@gmail.com"
+git config --global user.name "lrodriguezn"
+
+git add *.c
+git add LICENSE
+git commit -m 'initial project version'
+git commit -m 'inicial'
