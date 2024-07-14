@@ -1,0 +1,15 @@
+sudo apt update && sudo apt upgrade
+
+INSTALACION DE DOCKER COMPOSE
+
+Validar la ultima version de docker compose
+https://github.com/docker/compose/releases
+
+--Reemplazar la version en la linea de curl
+sudo curl -L "https://github.com/docker/compose/releases/download/2.28.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+A continuación, estableceremos los permisos correctos para que el comando docker-compose sea ejecutable:
+sudo chmod +x /usr/local/bin/docker-compose
+
+Para verificar que la instalación se realizó correctamente, puede ejecutar:
+docker-compose --version

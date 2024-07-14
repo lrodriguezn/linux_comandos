@@ -1,0 +1,7 @@
+sudo apt update && sudo apt upgrade
+sudo apt install curl
+curl --version
+
+como usar el comando Curl
+curl -I https://www.google.co.in/
+curl -I https://www.cyberciti.biz/
